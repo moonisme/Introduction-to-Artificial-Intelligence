@@ -1,0 +1,8 @@
+1.编译运行方法:
+    make clean
+    make
+    ./playc.sh "lookt -d 6" 12345
+3.在agent.c中第19行修改默认搜索深度,默认为8
+4.算法原理(Question):需要写到agent.c的开头
+    Alpha-beta search搜索算法,走最小最大搜索算法的基础上,使用下确界alpha和上确界beta剪掉不必要的搜索分支,大大加快了搜索速度.
+6.最小最大搜索算法具体可以查看https://blog.csdn.net/u012723995/article/details/47133693
